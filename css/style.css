@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'NIXGONM-Vb';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    margin:0;
+}
+html {
+    height: 100%;
+    color: #333;
+    font-family: 'Noto Sans KR', Roboto, sans-serif;
+}
+
+#header{
+    font-family: 'NIXGONM-Vb';
+    border: 1px solid #333;
+    width:100%;
+    height:100%;
+    background: url("https://cdn.pixabay.com/photo/2020/06/19/10/39/digital-paper-5316930_1280.jpg");
+    background-size:100%;
+}
+#menu{
+    height: 30px;
+    width:100%;
+    margin:0;
+}
+
+#menu ol li{        
+        list-style: none;           
+        color: white;               
+        background-color: rgb(218, 239, 247);  
+        float:left;      
+        line-height: 30px;          
+        text-align: center;       
+        padding:10px; 
+        padding-right: 30px;
+        padding-left:30px;
+}
+#Menu .menuLink {                              
+        text-decoration:none;                     
+        color: white;                              
+        display: block;                           
+        font-size: 12px;                           
+        font-weight: bold;                        
+        font-family: "Trebuchet MS", Dotum, Arial; 
+}
+#main{
+    grid-column:2/3;
+    border: 1px solid ; 
+
+}
+#login{
+
+    grid-row:2/3;
+    grid-column:3/4;
+    border: 1px solid #333;
+    background:lightyellow;
+    
+}
+#footer{
+    grid-column:1/4;
+    border: 1px solid #333;
+    height:80px;
+}
+h1{
+    text-align:center;
+    color:rgb(61, 61, 61);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+a:link{text-decoration:none;}
+a:hover{
+    text-decoration:underline;
+}
+table{
+    border:1px solid #333;
+    margin:10px;
+    background:url("../img/bread2.jpg")
+}
+#join{
+    font-size:2px;
+
+}
+#shop{
+    background:burlywood
+}
+#footer{
+    background:gray;}
+#footer p{ font-size:2px;
+ color:white
+    
+}
+#login button.button{
+    font-size:20px; padding: 30px; 
+    width:200px;
+        border-radius: 30%;
+        margin-right: 10px;
+}
+#login div{
+    
+    padding-bottom:30px;
+    padding-left:30px;
+}
+#header h1{
+    font-size:40px;
+}
+#menu p{
+    text-align:center;
+    background-color:tan;
+    font-family: "Times New Roman", Times, serif;
+}
